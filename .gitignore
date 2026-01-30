@@ -1,0 +1,25 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 大文件 (权重、数据)
+*.pt
+*.pth
+*.pkl
+*.npz
+*.onnx
+
+# 训练日志和缓存
+wandb/
+logs/
+run-*/
+videos/
+outputs/
+results/
+temp/
+
+# 虚拟环境 (如果有在文件夹里)
+env/
+venv/
+.idea/
+.vscode/
