@@ -12,7 +12,7 @@ python tools/demo/demo.py --video=docs/example_video/tennis.mp4 -s
 
  其中，--video=/path/to/video，为输入（即需要处理）的视频路径
 
-![img](/home/yiqiu/G1_Project_Upload/assets/13276126ee264824b8caeeac2f94970f.png)
+![1](assets/1.png)
 
 ## 二、GMR
 
@@ -154,7 +154,7 @@ python scripts/replay_npz.py --registry_name=yiqiupeter-nwpu/my-g1-motions/kunku
 
 其中，--registry_name={your-organization}-org/wandb-registry-motions/{motion_name}
 
-![image-20260130232109580](/home/yiqiu/G1_Project_Upload/assets/image-20260130232109580.png)
+![2](assets/3.png)
 
 确认无误后，开始训练
 
@@ -168,7 +168,7 @@ python scripts/rsl_rl/train.py --task=Tracking-Flat-G1-v0 \
 
 当参数
 
-![截图 2026-01-30 23-30-43](/home/yiqiu/G1_Project_Upload/assets/截图 2026-01-30 23-30-43.png)
+![3](assets/2.png)
 
 训练完成后，查看效果
 
@@ -265,6 +265,6 @@ python scripts/rsl_rl/play.py \
 
 展现出如下效果即可
 
-![截图 2026-01-30 23-53-27](/home/yiqiu/G1_Project_Upload/assets/截图 2026-01-30 23-53-27.png)
+![4](assets/4.png)
 
 ## 四、Sim2real
